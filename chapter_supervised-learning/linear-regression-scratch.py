@@ -96,8 +96,4 @@ for e in range(epochs):
             losses.append(est_loss)
             print("Epoch %s, batch %s. Moving avg of loss: %s. Average loss: %f" % (e, niter, est_loss, total_loss/num_examples))
             plot(losses, X)
-  
-  
-  
-  
-  
+            
